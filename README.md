@@ -40,10 +40,10 @@ Soy Científico de Datos con un Doctorado en Economía y más de diez años de e
 
 ---
 
-### 4. Análisis PCA (componentes principales)
-**Notebook:** `ANALISIS_PCA.ipynb`  
-**Descripción:** Reducción de dimensionalidad con PCA sobre datos multivariantes.  
-**Técnicas:** Estandarización, varianza explicada, visualización 2D/3D.
+### 4. Análisis Sentimental (Extracción de Datos con Web Scraping)
+**Notebook:** `WEB_SCRAPING__DEF.ipynb`  
+**Descripción:** Automatización del proceso de recopilación de información desde sitios web mediante técnicas de Web Scraping en Python.  
+**Técnicas:** Uso de requests para envío de peticiones HTTP, BeautifulSoup para parsing del HTML, manejo de headers y delays para evitar bloqueo de IP, y limpieza de datos con expresiones regulares. Creando un pipeline robusto de extracción y realizando limpieza de textos para construir datasets propios desde medios digitales, con aplicación en minería de texto, análisis de opinión y estudios de cobertura mediática.
 
 ---
 
