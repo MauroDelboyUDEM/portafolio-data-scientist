@@ -54,6 +54,12 @@ Soy Científico de Datos con un Doctorado en Economía y más de diez años de e
 
 ---
 
+### 6. Aprendizaje No Supervisado – Clustering
+**Notebook:** `CLUSTERS_COMPLETO.ipynb`  
+**Descripción:** Implementación de algoritmos de clustering para segmentar datos sin etiquetas. Incluye K-Means, Clustering Jerárquico, DBSCAN y Clustering Espectral.  
+**Técnicas:** Estandarización, PCA, método del codo, coeficiente de silueta, visualización 2D/3D. Identificando agrupamientos naturales en los datos para fines de segmentación o reducción de complejidad.
+
+
 ## 📞 Contacto
 
 - 📧 delboymauro@gmail.com  
