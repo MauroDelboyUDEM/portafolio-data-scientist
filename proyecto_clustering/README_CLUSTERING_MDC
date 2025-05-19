@@ -1,0 +1,36 @@
+# Proyecto: Aprendizaje No Supervisado – Clustering
+# Autor: MAuro OScar Lua Delboy Céspedes
+
+## 📊 Descripción
+
+Este proyecto implementa técnicas de aprendizaje no supervisado para identificar patrones y grupos naturales dentro de un conjunto de datos. Se utilizan diferentes algoritmos de clustering y se compara su desempeño con métricas y visualizaciones.
+
+## 🧠 Algoritmos aplicados
+
+- K-Means
+- Clustering Jerárquico (agglomerativo)
+- DBSCAN
+- Clustering espectral
+
+## 🔍 Funcionalidades
+
+- Estandarización y reducción de dimensiones (PCA)
+- Cálculo del número óptimo de clusters (método del codo y silueta)
+- Visualización 2D y 3D de agrupaciones
+- Interpretación de perfiles de clústeres
+
+## 🧰 Herramientas y librerías
+
+- `scikit-learn`
+- `pandas`, `numpy`
+- `matplotlib`, `seaborn`
+
+## 🎯 Aplicaciones posibles
+
+- Segmentación de clientes
+- Agrupación de usuarios en redes sociales
+- Descubrimiento de perfiles ocultos en datos complejos
+
+## 📁 Archivo incluido
+
+- `CLUSTERS_COMPLETO.ipynb`
