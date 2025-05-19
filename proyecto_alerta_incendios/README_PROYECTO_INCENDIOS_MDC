@@ -1,0 +1,39 @@
+# Proyecto: Alerta Temprana para Predicción de Incendios
+
+## 🔥 Descripción
+
+Este proyecto desarrolla un sistema de alerta temprana para la predicción de incendios forestales utilizando técnicas de Machine Learning. El objetivo es anticipar eventos de incendio en función de variables climáticas y condiciones ambientales registradas.
+
+## 📊 Dataset
+
+Se utilizó un conjunto de datos sobre incendios forestales que incluye variables como:
+
+- Temperatura
+- Humedad relativa
+- Velocidad del viento
+- Lluvia
+- Índices de combustibilidad (FFMC, DMC, DC, ISI, BUI, FWI)
+
+## ⚙️ Algoritmos utilizados
+
+- Regresión logística
+- Bosques aleatorios (Random Forest)
+- Métricas de evaluación: Accuracy, Precision, Recall, ROC-AUC
+
+## 🧰 Librerías
+
+- pandas, numpy
+- scikit-learn
+- matplotlib, seaborn
+
+## 🧠 Resultados
+
+El modelo logró una buena capacidad de predicción sobre eventos de incendio. Se visualizaron las variables más relevantes y la efectividad del sistema de alerta propuesto.
+
+## 📁 Archivo incluido
+
+- `Alerta_temprana_predicción_incendios.ipynb`
+
+## 📌 Recomendación
+
+El proyecto puede ser utilizado como base para sistemas de monitoreo ambiental en regiones propensas a incendios forestales.
