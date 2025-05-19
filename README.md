@@ -9,8 +9,8 @@ Soy Científico de Datos con un Doctorado en Economía y más de diez años de e
 ## Habilidades Técnicas
 
 - **Lenguajes:** Python, R, SQL, Java
-- **Librerías:** pandas, numpy, matplotlib, seaborn, scikit-learn, BeautifulSoup, Selenium, WordCloud
-- **Herramientas:** Jupyter, GitHub, Tableau, Hadoop, Spark, AWS, MatLab, Google Colab
+- **Librerías:** pandas, numpy, matplotlib, seaborn, scikit-learn, BeautifulSoup, Selenium, WordCloud, TensorFlow, Keras, skopt, transformers, PIL, Os, opencv 
+- **Herramientas:** Jupyter, GitHub, Tableau, Hadoop, Spark, AWS, MatLab, Google Colab, VS Code, 
 - **Bases de datos:** MySQL, PostgreSQL, MariaDB
 - **Metodologías:** Scrum, Agile
 
