@@ -18,10 +18,11 @@ Soy Científico de Datos con un Doctorado en Economía y más de diez años de e
 
 ## Proyectos destacados
 
-### 1. Análisis de sentimiento en reseñas
-**Notebook:** `AnalíisisSentimentalVerif.ipynb`  
-**Descripción:** Clasificación de sentimiento positivo/negativo en reseñas de películas mediante NLP y visualización con nubes de palabras.  
-**Técnicas:** Limpieza de texto, vectorización TF-IDF, Naive Bayes, WordCloud.
+### 1. Creación de un ChatGPT Propio
+**Notebook:**  `CREACION_PROPIO_CHATGPT_MDC.ipynb`
+**Descripción:** Desarrollo de un chatbot conversacional usando modelos preentrenados tipo GPT en Python. Se simula una interacción tipo ChatGPT con ajuste de prompts y respuestas generadas dinámicamente.
+**Técnicas:** Modelos de lenguaje de transformers (Hugging Face), gestión de historial de conversación, despliegue básico en entorno colaborativo.
+
 
 ---
 
@@ -32,10 +33,10 @@ Soy Científico de Datos con un Doctorado en Economía y más de diez años de e
 
 ---
 
-### 3. Algoritmo genético aplicado a optimización
-**Notebook:** `ANALITICA_PRESCRIPTIVA_ALG_GENETICO.ipynb`  
-**Descripción:** Implementación de un algoritmo genético para resolver un problema de optimización logística.  
-**Técnicas:** Codificación binaria, operadores genéticos, función de aptitud.
+### 3. Alerta Temprana para Predicción de Incendios
+**Notebook:** `alerta_temprana_incendios.ipynb`  
+**Descripción:** Sistema de predicción de incendios forestales a partir de variables meteorológicas e índices de combustibilidad. Se entrenan modelos clasificadores para identificar condiciones de riesgo.  
+**Técnicas:** Random Forest, Regresión Logística, análisis de variables climáticas, métricas de evaluación (Precision, Recall, ROC-AUC).
 
 ---
 
