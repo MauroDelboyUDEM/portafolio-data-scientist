@@ -1,0 +1,36 @@
+# Proyecto: Web Scraping para Extracción de Datos No Estructurados
+# Este archivo ha sido desarrollado por Mauro Delboy Céspedes
+
+## 🌐 Descripción
+
+Este proyecto implementa técnicas de Web Scraping para extraer, limpiar y estructurar datos directamente desde páginas web. Se automatiza la recopilación de contenido textual relevante para su posterior análisis o visualización.
+
+## 🔍 Objetivo
+
+Obtener información de medios digitales para estudios de opinión pública, análisis de tendencias, o monitoreo de políticas. Se hace especial énfasis en la extracción robusta y reutilizable con Python.
+
+## 🧰 Herramientas y librerías utilizadas
+
+- `requests`
+- `BeautifulSoup` (BS4)
+- `pandas`
+- `re` (expresiones regulares)
+- `time`, `random` (para evitar bloqueos del servidor)
+
+## ⚙️ Funcionalidades
+
+- Simulación de headers y user-agent
+- Extracción de textos de artículos, titulares y fechas
+- Limpieza de etiquetas HTML
+- Exportación a DataFrame para procesamiento posterior
+
+## 📈 Posibles aplicaciones
+
+- Análisis de sentimiento
+- Minería de texto
+- Detección de sesgos o cobertura en medios
+- Creación de datasets históricos desde fuentes web
+
+## 📁 Archivo incluido
+
+- `WEB_SCRAPING__DEF.ipynb`
