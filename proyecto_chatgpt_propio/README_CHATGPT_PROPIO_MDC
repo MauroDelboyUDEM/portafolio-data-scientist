@@ -1,0 +1,26 @@
+# Proyecto: Creación de un ChatGPT Propio
+
+## 🧠 Descripción
+
+Este proyecto demuestra cómo construir un chatbot tipo ChatGPT utilizando herramientas de procesamiento de lenguaje natural (NLP). El objetivo es simular conversaciones humanas con un modelo local usando técnicas de generación de texto.
+
+## 📦 Tecnologías utilizadas
+
+- Python
+- Transformers de Hugging Face
+- Modelos tipo GPT
+- Google Colab (entorno de ejecución)
+
+## 🔍 Funcionalidades
+
+- Carga de modelos preentrenados
+- Personalización del prompt
+- Interacción secuencial tipo chat
+
+## 🚀 Cómo ejecutarlo
+
+Puedes abrir y ejecutar este notebook en Google Colab para replicar los resultados y personalizar tu propio modelo conversacional.
+
+## 📁 Archivo incluido
+
+- `CREACION_PROPIO_CHATGPT_MDC.ipynb`
