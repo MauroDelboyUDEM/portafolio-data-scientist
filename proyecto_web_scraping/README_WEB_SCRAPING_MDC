@@ -1,36 +1,63 @@
-# Proyecto: Web Scraping para Extracción de Datos No Estructurados
-# Este archivo ha sido desarrollado por Mauro Delboy Céspedes
+# Proyecto: Web Scraping para Extracción de Datos No Estructurados  
+**Autor:** Mauro Delboy Céspedes
 
-## 🌐 Descripción
+## 🌐 ¿Qué es?
 
-Este proyecto implementa técnicas de Web Scraping para extraer, limpiar y estructurar datos directamente desde páginas web. Se automatiza la recopilación de contenido textual relevante para su posterior análisis o visualización.
+Este proyecto demuestra cómo automatizar la extracción de información desde sitios web mediante técnicas de Web Scraping. El objetivo es convertir contenido HTML no estructurado en datos tabulares organizados para análisis posterior.
 
-## 🔍 Objetivo
+---
 
-Obtener información de medios digitales para estudios de opinión pública, análisis de tendencias, o monitoreo de políticas. Se hace especial énfasis en la extracción robusta y reutilizable con Python.
+## 📌 Detalles del Proyecto
+
+### Objetivo
+
+Recolectar información de medios digitales de forma sistemática, confiable y reutilizable para facilitar estudios de análisis de texto, opinión pública, monitoreo de políticas o cobertura noticiosa.
+
+---
 
 ## 🧰 Herramientas y librerías utilizadas
 
-- `requests`
-- `BeautifulSoup` (BS4)
-- `pandas`
-- `re` (expresiones regulares)
-- `time`, `random` (para evitar bloqueos del servidor)
+- `requests` – para realizar peticiones HTTP a las páginas objetivo  
+- `BeautifulSoup` (bs4) – para parsear el contenido HTML y extraer etiquetas deseadas  
+- `re` – para limpiar el texto usando expresiones regulares  
+- `time`, `random` – para establecer retardos aleatorios y evitar bloqueos por scraping intensivo  
+- `pandas` – para estructurar los datos en DataFrames  
 
-## ⚙️ Funcionalidades
+---
 
-- Simulación de headers y user-agent
-- Extracción de textos de artículos, titulares y fechas
-- Limpieza de etiquetas HTML
-- Exportación a DataFrame para procesamiento posterior
+## ⚙️ Funcionalidades clave
 
-## 📈 Posibles aplicaciones
+1. **Simulación de comportamiento humano**  
+   - Headers personalizados con `User-Agent`
+   - Tiempo de espera aleatorio entre peticiones
 
-- Análisis de sentimiento
-- Minería de texto
-- Detección de sesgos o cobertura en medios
-- Creación de datasets históricos desde fuentes web
+2. **Extracción de contenido clave**  
+   - Titulares, fechas, cuerpos de texto
+
+3. **Limpieza y formateo del contenido**  
+   - Eliminación de etiquetas HTML y caracteres especiales  
+   - Estandarización del texto para análisis posterior
+
+4. **Almacenamiento de datos**  
+   - Exportación a CSV o DataFrame para su análisis en Python
+
+---
+
+## 📈 Aplicaciones posibles
+
+- Análisis de sentimiento y polaridad en noticias
+- Detección de cobertura sesgada en medios de comunicación
+- Construcción de datasets para entrenamiento de modelos NLP
+- Monitoreo automatizado de tendencias o narrativas
+
+---
 
 ## 📁 Archivo incluido
 
 - `WEB_SCRAPING__DEF.ipynb`
+
+---
+
+## ✅ Conclusión
+
+El Web Scraping es una técnica poderosa para obtener información desde la web cuando no hay APIs disponibles. Este proyecto ofrece una base reutilizable y escalable para construir pipelines de extracción de datos con fines analíticos o de investigación.
