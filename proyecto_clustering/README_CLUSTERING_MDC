@@ -1,36 +1,65 @@
-# Proyecto: Aprendizaje No Supervisado – Clustering
-# Autor: MAuro OScar Lua Delboy Céspedes
+# Proyecto: Aprendizaje No Supervisado – Clustering  
+**Autor:** Mauro Oscar Lua Delboy Céspedes
 
-## 📊 Descripción
+## 🧠 ¿Qué es?
 
-Este proyecto implementa técnicas de aprendizaje no supervisado para identificar patrones y grupos naturales dentro de un conjunto de datos. Se utilizan diferentes algoritmos de clustering y se compara su desempeño con métricas y visualizaciones.
+Este proyecto aplica técnicas de aprendizaje no supervisado para descubrir patrones ocultos y estructuras en datos sin etiquetas. Utilizando múltiples algoritmos de clustering, se comparan resultados y se generan visualizaciones para interpretar los agrupamientos formados.
 
-## 🧠 Algoritmos aplicados
+---
 
-- K-Means
-- Clustering Jerárquico (agglomerativo)
-- DBSCAN
-- Clustering espectral
+## 📌 Detalles del Proyecto
 
-## 🔍 Funcionalidades
+### Objetivo
 
-- Estandarización y reducción de dimensiones (PCA)
-- Cálculo del número óptimo de clusters (método del codo y silueta)
-- Visualización 2D y 3D de agrupaciones
-- Interpretación de perfiles de clústeres
+Identificar grupos naturales dentro de los datos para aplicaciones como segmentación de usuarios, análisis de comportamiento o compresión de información. Se enfoca en el entendimiento visual y estadístico de los clústeres generados.
+
+---
+
+## ⚙️ Algoritmos aplicados
+
+- **K-Means:** Clustering basado en centroides con distancia euclidiana.
+- **Clustering Jerárquico:** Agrupamiento aglomerativo visualizado en dendrogramas.
+- **DBSCAN:** Detección de grupos con densidad, resistente a ruido.
+- **Clustering espectral:** Basado en descomposición espectral de grafos.
+
+---
+
+## 🔍 Funcionalidades clave
+
+1. **Estandarización de variables** con `StandardScaler`  
+2. **Reducción de dimensionalidad** con PCA para visualización  
+3. **Selección del número óptimo de clústeres** con:
+   - Método del codo (elbow)
+   - Coeficiente de silueta  
+4. **Visualizaciones 2D/3D** para interpretación  
+5. **Perfilamiento de clústeres** con estadísticas descriptivas
+
+---
 
 ## 🧰 Herramientas y librerías
 
-- `scikit-learn`
-- `pandas`, `numpy`
-- `matplotlib`, `seaborn`
+- `scikit-learn` – clustering, PCA, métricas
+- `pandas`, `numpy` – manipulación de datos
+- `matplotlib`, `seaborn` – visualización
+
+---
 
 ## 🎯 Aplicaciones posibles
 
-- Segmentación de clientes
-- Agrupación de usuarios en redes sociales
-- Descubrimiento de perfiles ocultos en datos complejos
+- Segmentación de clientes en marketing
+- Agrupación de publicaciones o usuarios en redes sociales
+- Análisis de perfiles académicos, de salud o financieros
+- Preprocesamiento para modelos supervisados
+
+---
 
 ## 📁 Archivo incluido
 
 - `CLUSTERS_COMPLETO.ipynb`
+
+---
+
+## ✅ Conclusión
+
+Este proyecto demuestra el poder del aprendizaje no supervisado para entender datos sin etiquetas. Las técnicas de clustering son fundamentales en la ciencia de datos moderna para reducir la complejidad de los datos y revelar estructuras ocultas que pueden guiar decisiones estratégicas.
+
