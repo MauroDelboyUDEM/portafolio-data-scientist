@@ -1,26 +1,78 @@
 # Proyecto: Creación de un ChatGPT Propio
 
-## 🧠 Descripción
+## 🤖 ¿Qué es?
 
-Este proyecto demuestra cómo construir un chatbot tipo ChatGPT utilizando herramientas de procesamiento de lenguaje natural (NLP). El objetivo es simular conversaciones humanas con un modelo local usando técnicas de generación de texto.
+Un proyecto de procesamiento de lenguaje natural (NLP) que muestra cómo crear un chatbot conversacional tipo ChatGPT utilizando modelos preentrenados de tipo transformer. Permite generar respuestas coherentes a partir de entradas del usuario simulando una conversación fluida.
 
-## 📦 Tecnologías utilizadas
+---
 
-- Python
-- Transformers de Hugging Face
-- Modelos tipo GPT
-- Google Colab (entorno de ejecución)
+## 📌 Detalles del Proyecto
 
-## 🔍 Funcionalidades
+### Fundamento del modelo
 
-- Carga de modelos preentrenados
-- Personalización del prompt
-- Interacción secuencial tipo chat
+- **Modelo base:** Se emplean modelos tipo GPT (como `gpt2`) a través de la librería `transformers` de Hugging Face.
+- **Objetivo:** Replicar el comportamiento de un asistente conversacional entrenado, pero usando infraestructura local o en Google Colab.
+
+---
+
+## ⚙️ Funcionalidades clave
+
+1. **Carga de modelos preentrenados**  
+   Se utiliza un modelo tipo GPT preentrenado para generación de texto.
+
+2. **Personalización de Prompts**  
+   Permite ajustar manualmente el prompt de entrada para condicionar la respuesta generada.
+
+3. **Gestión de contexto conversacional**  
+   El sistema guarda el historial del chat para mantener coherencia en múltiples turnos.
+
+4. **Generación secuencial de texto**  
+   Control de temperatura y longitud para ajustar la creatividad y extensión de la respuesta.
+
+---
+
+## 🧰 Tecnologías y herramientas utilizadas
+
+- `Python`  
+- `transformers` de Hugging Face  
+- `torch` (PyTorch)  
+- Google Colab para entorno de ejecución  
+- (Opcional) Gradio para interfaz interactiva
+
+---
 
 ## 🚀 Cómo ejecutarlo
 
-Puedes abrir y ejecutar este notebook en Google Colab para replicar los resultados y personalizar tu propio modelo conversacional.
+1. Abre el archivo en Google Colab.
+2. Asegúrate de tener instalada la librería `transformers`.
+3. Ejecuta las celdas paso a paso.
+4. Interactúa con el chatbot desde una celda de entrada o interfaz Gradio (si está configurada).
+
+---
+
+## 🧪 Personalización sugerida
+
+- Cambiar el modelo base por versiones más avanzadas (`gpt2-medium`, `gpt-neo`)
+- Limitar el contexto del historial
+- Integrarlo con APIs o plataformas de voz/texto
+
+---
 
 ## 📁 Archivo incluido
 
 - `CREACION_PROPIO_CHATGPT_MDC.ipynb`
+
+---
+
+## 🎯 Aplicaciones
+
+- Asistentes virtuales personalizados
+- Entrenamiento de modelos para educación, soporte técnico o entretenimiento
+- Prototipos de interfaces conversacionales para empresas
+
+---
+
+## ✅ Conclusión
+
+Este proyecto es una base funcional para explorar el poder de los modelos generativos de lenguaje. Su estructura simple lo convierte en un punto de partida ideal para quienes deseen aprender a implementar asistentes conversacionales personalizados con herramientas modernas.
+
