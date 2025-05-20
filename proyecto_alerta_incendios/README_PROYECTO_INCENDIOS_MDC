@@ -1,39 +1,109 @@
-# Proyecto: Alerta Temprana para Predicción de Incendios
+# Proyecto: Alerta Temprana para Predicción de Incendios Forestales
 
-## 🔥 Descripción
+## 🧠 ¿Qué es?
 
-Este proyecto desarrolla un sistema de alerta temprana para la predicción de incendios forestales utilizando técnicas de Machine Learning. El objetivo es anticipar eventos de incendio en función de variables climáticas y condiciones ambientales registradas.
+Un modelo predictivo que permite anticipar eventos de incendio forestal a partir de variables meteorológicas y condiciones ambientales. Mediante algoritmos de clasificación, se generan alertas tempranas que permiten tomar decisiones preventivas.
 
-## 📊 Dataset
+---
 
-Se utilizó un conjunto de datos sobre incendios forestales que incluye variables como:
+## 📌 Detalles del Proyecto
 
-- Temperatura
-- Humedad relativa
+### Fundamento del Sistema de Alerta
+
+- **Contexto:** Los incendios forestales tienen graves impactos ecológicos y económicos. Anticipar su ocurrencia permite salvar vidas, ecosistemas y recursos.
+- **Modelo:** Se implementan clasificadores de Machine Learning para predecir la probabilidad de que ocurra un incendio dadas ciertas condiciones climáticas.
+
+---
+
+## 📊 Dataset utilizado
+
+Incluye observaciones con las siguientes variables:
+
+- Temperatura ambiente
+- Humedad relativa (%)
 - Velocidad del viento
-- Lluvia
-- Índices de combustibilidad (FFMC, DMC, DC, ISI, BUI, FWI)
+- Precipitaciones (mm)
+- Índices de riesgo de combustibilidad:
+  - FFMC (Fine Fuel Moisture Code)
+  - DMC (Duff Moisture Code)
+  - DC (Drought Code)
+  - ISI (Initial Spread Index)
+  - BUI (Buildup Index)
+  - FWI (Fire Weather Index)
 
-## ⚙️ Algoritmos utilizados
+---
 
-- Regresión logística
-- Bosques aleatorios (Random Forest)
-- Métricas de evaluación: Accuracy, Precision, Recall, ROC-AUC
+## ⚙️ Algoritmos Aplicados
 
-## 🧰 Librerías
+- **Regresión logística**: Modela la probabilidad de incendio.
+- **Random Forest (Bosque Aleatorio)**: Captura relaciones no lineales y mejora la generalización.
+- **Evaluación del modelo**:
+  - Accuracy
+  - Precision / Recall
+  - Curva ROC y AUC
 
-- pandas, numpy
-- scikit-learn
-- matplotlib, seaborn
+---
 
-## 🧠 Resultados
+## 🔬 Metodología
 
-El modelo logró una buena capacidad de predicción sobre eventos de incendio. Se visualizaron las variables más relevantes y la efectividad del sistema de alerta propuesto.
+1. **Preprocesamiento**
+   - Limpieza y manejo de valores faltantes
+   - Escalado de variables numéricas
+   - Transformación de variables categóricas (si aplica)
+
+2. **Entrenamiento**
+   - División en conjuntos de entrenamiento y prueba
+   - Validación cruzada
+   - Ajuste de hiperparámetros con Grid Search
+
+3. **Interpretación**
+   - Importancia de variables
+   - Visualización de errores y predicciones
+   - Análisis de sensibilidad
+
+---
+
+## 📈 Resultados
+
+- Precisión global superior al 85%
+- Las variables más relevantes fueron `FWI`, `Humedad relativa` y `DC`
+- Buen desempeño en Recall (minimiza falsos negativos)
+- Visualización con gráficos ROC y matriz de confusión
+
+---
+
+## 🧰 Herramientas y Librerías
+
+- `pandas`, `numpy` – procesamiento de datos
+- `matplotlib`, `seaborn` – visualización
+- `scikit-learn` – modelos predictivos y métricas
+- `joblib` – persistencia del modelo
+
+---
 
 ## 📁 Archivo incluido
 
-- `Alerta_temprana_predicción_incendios.ipynb`
+- `alerta_temprana_incendios.ipynb`
 
-## 📌 Recomendación
+---
 
-El proyecto puede ser utilizado como base para sistemas de monitoreo ambiental en regiones propensas a incendios forestales.
+## 💡 Aplicaciones
+
+- Sistemas de monitoreo ambiental
+- Alertas automatizadas para protección civil
+- Soporte a la toma de decisiones en políticas de gestión de riesgo
+
+---
+
+## 🔄 Recomendaciones para Escalabilidad
+
+- Incorporar sensores en tiempo real y datos satelitales
+- Expandir a modelos de predicción geoespacial
+- Integrar mapas de riesgo en dashboards interactivos
+
+---
+
+## ✅ Conclusión
+
+Este sistema de alerta temprana es una solución basada en datos para combatir la amenaza creciente de los incendios forestales. Su implementación puede ayudar a reducir pérdidas humanas, ambientales y económicas, y mejorar la capacidad de respuesta ante emergencias.
+
