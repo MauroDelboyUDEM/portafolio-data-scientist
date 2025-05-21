@@ -1,0 +1,63 @@
+# Proyecto: Predicción de Precios de Acciones  
+**Autor:** Mauro Delboy Céspedes
+
+## 📈 ¿Qué es?
+
+Este proyecto implementa un modelo de predicción para precios de acciones usando datos históricos del mercado financiero. Se abordan etapas como obtención, limpieza, visualización y modelado de series de tiempo con enfoque supervisado.
+
+---
+
+## 📌 Objetivo
+
+Predecir el precio futuro de una acción en función de sus valores pasados, con base en patrones temporales y estacionales. El modelo puede utilizarse como base para sistemas de trading algorítmico, análisis de riesgo o toma de decisiones financieras.
+
+---
+
+## 🧰 Herramientas y librerías utilizadas
+
+- `yfinance` o datasets financieros precargados
+- `pandas`, `numpy` – manipulación de datos
+- `matplotlib`, `seaborn` – visualización de precios y tendencias
+- `scikit-learn` – regresión lineal, Random Forest
+- `MinMaxScaler`, `train_test_split`
+
+---
+
+## ⚙️ Funcionalidades clave
+
+1. **Obtención y limpieza de datos**
+   - Eliminación de valores nulos
+   - Conversión de fechas y selección de columnas relevantes
+
+2. **Análisis exploratorio**
+   - Visualización de precios históricos
+   - Cálculo de medias móviles y volatilidad
+
+3. **Modelado predictivo**
+   - Preparación de ventanas deslizantes para entrenamiento supervisado
+   - Ajuste y evaluación de modelos de regresión
+
+4. **Visualización de predicciones**
+   - Comparación entre valores reales y estimados
+   - Gráficos de tendencia
+
+---
+
+## 📁 Archivo incluido
+
+- `PREDICCION_STOCK_PRICES.ipynb`
+
+---
+
+## 💡 Aplicaciones posibles
+
+- Modelos de trading cuantitativo
+- Estimación de precios de activos
+- Simulación de escenarios de inversión
+- Enseñanza de modelos de regresión aplicados a finanzas
+
+---
+
+## ✅ Conclusión
+
+Este proyecto muestra cómo construir un pipeline básico para predicción financiera, integrando visualización, limpieza, modelado y evaluación de series temporales de precios. Es un punto de partida flexible para proyectos más avanzados de análisis bursátil.
