@@ -1,66 +1,66 @@
-# Portafolio de Ciencia de Datos – Mauro Delboy
+# Portafolio Profesional de Ciencia de Datos – Mauro Delboy Céspedes
 
-## Perfil Profesional
+## 🧠 Perfil Profesional
 
-Soy Científico de Datos con un Doctorado en Economía y más de diez años de experiencia en investigación, econometría, aprendizaje automático y profundo. Me especializo en el diseño de algoritmos avanzados, modelos predictivos y análisis de datos masivos. Actualmente soy profesor en la Universidad de Monterrey, donde imparto cursos de Ciencia de Datos e Inteligencia Artificial.
-
----
-
-## Habilidades Técnicas
-
-- **Lenguajes:** Python, R, SQL, Java
-- **Librerías:** pandas, numpy, matplotlib, seaborn, scikit-learn, BeautifulSoup, Selenium, WordCloud, TensorFlow, Keras, skopt, transformers, PIL, Os, opencv 
-- **Herramientas:** Jupyter, GitHub, Tableau, Hadoop, Spark, AWS, MatLab, Google Colab, VS Code, 
-- **Bases de datos:** MySQL, PostgreSQL, MariaDB
-- **Metodologías:** Scrum, Agile
+Soy un Científico de Datos con Doctorado en Economía y más de una década de experiencia en investigación aplicada, analítica predictiva y desarrollo de modelos de inteligencia artificial. Mi trayectoria combina el rigor de la econometría con el poder de las técnicas modernas de machine learning, especializándome en modelos supervisados, no supervisados y generativos. Actualmente soy profesor de tiempo completo en la Universidad de Monterrey, donde imparto cursos de Ciencia de Datos, Aprendizaje Automático e Inteligencia Artificial tanto a nivel de pregrado como posgrado.
 
 ---
 
-## Proyectos destacados
+## ⚙️ Habilidades Técnicas
 
-### 1. Creación de un ChatGPT Propio
-**Notebook:**  `CREACION_PROPIO_CHATGPT_MDC.ipynb`
-**Descripción:** Desarrollo de un chatbot conversacional usando modelos preentrenados tipo GPT en Python. Se simula una interacción tipo ChatGPT con ajuste de prompts y respuestas generadas dinámicamente.
-**Técnicas:** Modelos de lenguaje de transformers (Hugging Face), gestión de historial de conversación, despliegue básico en entorno colaborativo.
-
-
----
-
-### 2. Simulación Monte Carlo de escenarios económicos
-**Notebook:** `ANPRESC_MONTECARLO_APLICACION.ipynb`  
-**Descripción:** Generación de escenarios estocásticos para inflación y desempleo utilizando técnicas de simulación de riesgo.  
-**Técnicas:** Distribuciones probabilísticas, visualización de escenarios, evaluación de decisiones.
+- **Lenguajes de programación:** Python, R, SQL, Java  
+- **Librerías y frameworks:** pandas, numpy, matplotlib, seaborn, scikit-learn, BeautifulSoup, Selenium, WordCloud, TensorFlow, Keras, skopt, transformers, PIL, OpenCV  
+- **Entornos y herramientas:** Jupyter Notebook, Google Colab, Visual Studio Code, Git/GitHub, Tableau, Hadoop, Spark, AWS, MATLAB  
+- **Bases de datos:** MySQL, PostgreSQL, MariaDB  
+- **Metodologías ágiles:** Scrum, Kanban, DevOps-oriented workflows  
 
 ---
 
-### 3. Alerta Temprana para Predicción de Incendios
+## 🚀 Proyectos Destacados
+
+### 1. 🔥 Alerta Temprana para Predicción de Incendios
 **Notebook:** `alerta_temprana_incendios.ipynb`  
-**Descripción:** Sistema de predicción de incendios forestales a partir de variables meteorológicas e índices de combustibilidad. Se entrenan modelos clasificadores para identificar condiciones de riesgo.  
-**Técnicas:** Random Forest, Regresión Logística, análisis de variables climáticas, métricas de evaluación (Precision, Recall, ROC-AUC).
+**Descripción:** Desarrollo de un sistema predictivo para anticipar incendios forestales a partir de variables climáticas e índices de combustibilidad. El modelo permite generar alertas tempranas útiles para sistemas de protección civil.  
+**Técnicas:** Random Forest, Regresión Logística, validación cruzada, visualización de correlaciones, curva ROC-AUC.
 
 ---
 
-### 4. Análisis Sentimental (Extracción de Datos con Web Scraping)
-**Notebook:** `WEB_SCRAPING__DEF.ipynb`  
-**Descripción:** Automatización del proceso de recopilación de información desde sitios web mediante técnicas de Web Scraping en Python.  
-**Técnicas:** Uso de requests para envío de peticiones HTTP, BeautifulSoup para parsing del HTML, manejo de headers y delays para evitar bloqueo de IP, y limpieza de datos con expresiones regulares. Creando un pipeline robusto de extracción y realizando limpieza de textos para construir datasets propios desde medios digitales, con aplicación en minería de texto, análisis de opinión y estudios de cobertura mediática.
+### 2. 🤖 Creación de un ChatGPT Propio
+**Notebook:** `CREACION_PROPIO_CHATGPT_MDC.ipynb`  
+**Descripción:** Construcción de un chatbot conversacional basado en modelos de lenguaje tipo GPT utilizando la librería Hugging Face Transformers. Se configura una interfaz de conversación con prompts adaptables y control de temperatura.  
+**Técnicas:** NLP generativo, modelos transformer, gestión de contexto conversacional, despliegue en Google Colab.
 
 ---
 
-### 5. Modelo TOPSIS para decisiones multicriterio
-**Notebook:** `ANPRESC_TOPSIS_ENSENAR.ipynb`  
-**Descripción:** Aplicación del método TOPSIS para evaluar alternativas en decisiones de negocio.  
-**Técnicas:** Normalización, matriz de decisión, ranking de alternativas.
-
----
-
-### 6. Aprendizaje No Supervisado – Clustering
+### 3. 📊 Aprendizaje No Supervisado – Clustering
 **Notebook:** `CLUSTERS_COMPLETO.ipynb`  
-**Descripción:** Implementación de algoritmos de clustering para segmentar datos sin etiquetas. Incluye K-Means, Clustering Jerárquico, DBSCAN y Clustering Espectral.  
-**Técnicas:** Estandarización, PCA, método del codo, coeficiente de silueta, visualización 2D/3D. Identificando agrupamientos naturales en los datos para fines de segmentación o reducción de complejidad.
+**Descripción:** Implementación de técnicas de agrupamiento no supervisado para descubrir patrones ocultos en datos sin etiquetas. Se utilizan múltiples algoritmos y se evalúa la coherencia de los clusters mediante métricas y visualizaciones.  
+**Técnicas:** K-Means, Clustering Jerárquico, DBSCAN, Clustering Espectral, PCA, análisis de silueta.
 
+---
 
-## 📞 Contacto
+### 4. 🧠 Predicción de Precios de Acciones
+**Notebook:** `PREDICCION_STOCK_PRICES.ipynb`  
+**Descripción:** Modelo de predicción de series temporales enfocado en precios de acciones, utilizando técnicas de regresión supervisada para detectar tendencias y proyecciones a corto plazo en mercados financieros.  
+**Técnicas:** Regresión Lineal, Random Forest Regressor, análisis de medias móviles, entrenamiento por ventanas deslizantes, escalado Min-Max.
+
+---
+
+### 5. 🌐 Extracción de Datos No Estructurados (Web Scraping)
+**Notebook:** `WEB_SCRAPING__DEF.ipynb`  
+**Descripción:** Automatización de la recolección de datos desde medios digitales mediante Web Scraping. Se construye un pipeline robusto de extracción, limpieza y estructuración textual, orientado a minería de texto y análisis de opinión.  
+**Técnicas:** requests, BeautifulSoup, expresiones regulares, `time` y `random` para evitar bloqueo, exportación estructurada con `pandas`.
+
+---
+
+### 6. ✍️ Tokenización y Minería de Texto
+**Notebook:** `TOKENIZACION_MINERIA_DE_TEXTO.ipynb`  
+**Descripción:** Proyecto de preprocesamiento textual enfocado en la tokenización, limpieza y análisis exploratorio de textos. Ideal como etapa inicial en pipelines de NLP para clasificación o análisis de sentimiento.  
+**Técnicas:** NLTK, limpieza con regex, eliminación de stopwords, stemming, WordCloud, análisis de frecuencias.
+
+---
+
+## 📬 Contacto
 
 - 📧 delboymauro@gmail.com  
 - 💼 [LinkedIn](https://linkedin.com/in/mauro-delboy)  
