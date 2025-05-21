@@ -1,0 +1,64 @@
+# Proyecto: Tokenización y Minería de Texto  
+**Autor:** Mauro Delboy Céspedes
+
+## 🧠 ¿Qué es?
+
+Este proyecto aborda las etapas fundamentales del procesamiento de lenguaje natural (NLP), comenzando por la tokenización de textos y avanzando hacia técnicas de minería de texto. Se trabaja con corpus en español, aplicando limpieza, segmentación y análisis de estructura textual.
+
+---
+
+## 📌 Objetivo
+
+Extraer información útil desde textos sin estructura clara mediante herramientas de procesamiento lingüístico, facilitando análisis posteriores como clasificación, análisis de sentimiento o resumen automático.
+
+---
+
+## 🧰 Herramientas y librerías utilizadas
+
+- `nltk` – para tokenización, stopwords y stemming  
+- `re` – para limpieza con expresiones regulares  
+- `pandas`, `numpy` – para manipulación tabular  
+- `wordcloud`, `matplotlib` – visualización de frecuencia  
+- (Opcional) `spaCy`, `scikit-learn` – para pasos avanzados
+
+---
+
+## ⚙️ Funcionalidades clave
+
+1. **Limpieza de texto crudo**
+   - Conversión a minúsculas, eliminación de signos y caracteres especiales
+
+2. **Tokenización de palabras y frases**
+   - Uso de `word_tokenize`, `sent_tokenize`
+
+3. **Remoción de stopwords y normalización**
+   - Filtrado de palabras vacías
+   - Aplicación de stemming (reducción a raíces)
+
+4. **Generación de frecuencias**
+   - Conteo de palabras más comunes
+   - Representación gráfica mediante WordClouds y gráficas de barras
+
+5. **Construcción de corpus limpio**
+   - Listo para usar en tareas de modelado NLP
+
+---
+
+## 📈 Aplicaciones posibles
+
+- Análisis de sentimiento
+- Clasificación automática de texto
+- Detección de temas frecuentes
+- Preparación de datos para entrenamiento de modelos NLP
+
+---
+
+## 📁 Archivo incluido
+
+- `TOKENIZACION_MINERIA_DE_TEXTO.ipynb`
+
+---
+
+## ✅ Conclusión
+
+Este proyecto proporciona una base sólida para cualquier tarea de procesamiento de lenguaje natural, enfocándose en las etapas iniciales del pipeline. La tokenización adecuada y la limpieza textual son esenciales para obtener buenos resultados en análisis más complejos como clasificación, clustering o generación de texto.
