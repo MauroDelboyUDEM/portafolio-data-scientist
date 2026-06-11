@@ -138,3 +138,23 @@ www.linkedin.com/in/mauro-delboy
 
 GitHub:
 https://github.com/MauroDelboyUDEM
+
+---
+
+# Main Results
+
+## Token Efficiency by Language
+
+![Token Efficiency](images/tokens_by_language.png)
+
+---
+
+## IDTL by Language
+
+![IDTL](images/idtl_by_language.png)
+
+---
+
+## Bootstrap Confidence Intervals
+
+![Bootstrap CI](images/bootstrap_ci.png)
