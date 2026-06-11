@@ -28,11 +28,11 @@ My work focuses on building AI systems, developing analytical frameworks and con
 
 # Featured Research
 
-## 🏆 Token-Linguistic Inequality in Generative AI
+## Computational Auditing Framework for Generative AI
 
 ### Computational Auditing Framework for Large Language Models
 
-This research proposes the **Token-Linguistic Inequality Index (IDTL/TLII)**, a novel metric designed to measure computational inequalities across languages in Generative AI systems.
+This research introduces a computational auditing framework for evaluating linguistic efficiency, token consumption and computational costs across languages in Generative AI systems.
 
 Key Contributions:
 
@@ -56,8 +56,13 @@ Main Findings:
 
 Languages may require up to **89% more tokens** to express semantically equivalent information.
 
-📂 Project:
-AI Computational Auditing Framework for Generative AI
+📂 Project: AI Computational Auditing Framework for Generative AI
+
+📄 Paper: paper/Paper_Computational_Auditing_Framework_Generative_AI.pdf
+
+📊 Results: RESULTS.md
+
+📓 Notebook: notebooks/Computational_Auditing_Framework_Generative.ipynb
 
 ---
 
