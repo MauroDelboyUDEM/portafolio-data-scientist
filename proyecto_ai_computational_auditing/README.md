@@ -56,8 +56,8 @@ Main Findings:
 
 Languages may require up to **89% more tokens** to express semantically equivalent information.
 
-📂 Repository:
-proyecto_tokenizacion_texto
+📂 Project:
+AI Computational Auditing Framework for Generative AI
 
 ---
 
